@@ -1,0 +1,9 @@
+.validation-message::before {
+    display: none;
+}
+
+.validation-message i{
+    margin: 0 .4em;
+    color: red;
+    font-size: 1.4em;
+}

@@ -1,0 +1,94 @@
+/* test modifiche */
+
+.App-body{ background: rgb(15,8,35);
+    background: linear-gradient(90deg, rgba(15,8,35,1) 0%, rgba(82,6,84,1) 55%, rgba(52,12,75,1) 100%);}
+.App-header{ background-color: #340c4b; border-bottom:#340c4b;}
+
+.SubmitButton button {margin-top:-10px; border: solid 3px #ffca2c; background-color: #636464;}
+.SubmitButton button:hover {margin-top:-10px; font-size:24px;  border-radius:19px !important; border:none !important;}
+
+
+.menus button {box-shadow:inset 0px 0px 15px 3px #23395e;
+	background:linear-gradient(to bottom, #340c4b 5%, #340c4b 100%);
+	background-color:#340c4b;
+	border-radius:19px;
+	border:2px solid #1f2f47;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:25px;
+	padding:6px 13px;
+	text-decoration:none;
+    color:white !important;
+	text-shadow:0px 1px 0px #263666;}
+
+.menus button:hover {background:linear-gradient(to bottom, #340c4b 5%, #33034c 100%);
+	background-color:#300333; color:white !important;}
+
+
+    .menus button :active {
+        position:relative;
+        top:1px;
+    }
+
+    
+
+    .logo{display:none;}
+
+    
+/* fine test modifiche */
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+h6 {font-size: 45% !important; padding:4px; margin-top: 15px;}
+.App-header {
+  display: flex;
+  flex: 1;
+  justify-content: right;
+
+}
+.App-body {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  flex: 1;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.head-connect-method {
+  display: inline-block;
+  justify-content: space-between;
+}
