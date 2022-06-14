@@ -103,19 +103,17 @@ export default function App() {
         <div className="App">
           <main className='App-main'>
             <SideNavBar />
-          </main>
-          <div className="app">
-            <header className="App-body">
-              <Routes>
-                <Route path='/'
-                  element={<Home />}/> 
-                <Route path='/wallet'
-                  element={<Wallet />}/>
-                <Route path='/walletSettings'
-                  element={<WalletSettings />}/>            
-              </Routes>
-            </header>
-          </div>
+          </main>          
+          <header className="App-body">
+            <Routes>
+              <Route path='/'
+                element={<Home />}/> 
+              <Route path='/wallet'
+                element={<Wallet />}/>
+              <Route path='/walletSettings'
+                element={<WalletSettings />}/>            
+            </Routes>
+          </header>
         </div>
         </Fragment>
       </Router>
